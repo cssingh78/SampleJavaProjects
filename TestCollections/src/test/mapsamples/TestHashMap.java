@@ -17,7 +17,7 @@ public class TestHashMap {
 	public static void main(String[] args)  {
 		HashMap<String, Student> hashMap = new HashMap<String, Student>();
 		for (int i = 0; i < 5; i++) {
-			Student student = Student.generateSampleStudent(i);
+			Student student = Student.generateSampleStudent(i); 
 			hashMap.put(student.getName(), student);
 		}
 		
