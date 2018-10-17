@@ -13,6 +13,8 @@ public class TestHashCode {
 
 	public static void main(String[] args) {
 		testHashMap();
+		testHashMap1();
+		
 		testHashSet();
 		testArrayList();
 		testTreeSet();
@@ -34,7 +36,7 @@ public class TestHashCode {
 		System.out.println("********* testHashMap() - end **********");
 	}
 	
-	private static void testHashMap() {
+	private static void testHashMap1() {
 		System.out.println("\n\n********* testHashMap() - start **********");
 		HashMap<School, ArrayList<Student>> hashMap = new HashMap<School, ArrayList<Student>>();
 		hashMap.put(new School(1001, "My School1"), null);

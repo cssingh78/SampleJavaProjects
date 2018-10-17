@@ -10,6 +10,7 @@ import test.commons.Student;
  * HashMap is not synchronised while Hashtable is. 
  * HashMap and other map classes don't implement Iterable interface. 
  * Alternative way to iterate through the entries.
+ * 
  */
 public class TestHashMap {
 
