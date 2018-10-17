@@ -20,6 +20,7 @@ public class TestHashMap {
 			Student student = Student.generateSampleStudent(i);
 			hashMap.put(student.getName(), student);
 		}
+		
 		//System.out.println("Printing entire hashMap: " + hashMap);
 
 		// Iterating through the hashmap entries.
